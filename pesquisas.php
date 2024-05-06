@@ -7,18 +7,7 @@
     <title> Pesquisas | Query </title>
 </head>
 <body>
-    <header>
-        <h1>PitiZzaria</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.php">Pizzas</a></li>
-                <li><a href="./pesquisas.html">Pesquisas</a></li>
-                <li><a href="#funcionarios">Funcionários</a></li>
-                <li><a href="../cadastrar_cliente.php">Clientes</a></li>
-                <li><a href="../gerar_pedidos.php">Pedidos</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php include 'html/header.html'; ?>
 
     <div class="botoes">
     <a href="../html/consulta-sabores.html" class="button">Pesquisa por SABOR</a> <br>

@@ -9,8 +9,10 @@
 </head>
 
 <body>
+    <?php include 'html/header.html'; ?>
+
     <form method="post" action="">
-        <input type="submit" value="Mostrar todas as pizzas">
+        <input type="submit" value="Receitas Disponíveis" class="buttonShow">
     </form>
 
     <?php

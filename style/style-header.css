@@ -15,7 +15,7 @@
   }
   
   header {
-    background-color: #343a40;
+    background-color: #ff932f;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -34,4 +34,10 @@
   nav ul li a {
     color: #fff;
     text-decoration: none;
+  }
+
+  img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
   }

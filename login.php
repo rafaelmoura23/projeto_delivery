@@ -47,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Login</title>
 </head>
 <body>
+<?php include 'html/header.html'; ?>
     <h1>Login</h1>
     <?php if (isset($erro)) : ?>
         <p><?php echo $erro; ?></p>
@@ -57,6 +58,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="senha">Senha:</label>
         <input type="password" id="senha" name="senha" required><br>
         <button type="submit">Entrar</button>
+
+        <a href="cadastrar_cliente.php">Cadastre-se</a>
     </form>
+
+    <?php include 'html/footer.html'; ?>
 </body>
 </html>
