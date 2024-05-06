@@ -15,12 +15,12 @@
     <div class="container">
         <form action="cadastro_pizzas.php" method="post">
             <div class="col-4">
-                <h2>Cadastro de Pizzas</h2>
-                <label for="sabor">Sabor da Pizza</label>
+                <h2>Cadastro de Prato</h2>
+                <label for="sabor">Sabor do Prato</label>
                 <input type="text" name="sabor_pizza" id="sabor_pizza" class="form-control">
             </div>
             <div class="col-4">
-                <label for="preco">Tamanho da Pizza</label>
+                <label for="preco">Tamanho do Prato</label>
                 <select name="tamanho_pizza" id="tamanho_pizza" name="tamanho_pizza">
                     <option value="P">P</option>
                     <option value="M">M</option>
@@ -28,17 +28,16 @@
                 </select>
             </div>
             <div class="col-4">
-                <label for="preco">Preço da Pizza</label>
+                <label for="preco">Preço do Prato</label>
                 <input type="text" name="preco_pizza" id="preco_pizza" class="form-control">
             </div>
             <div class="col-4">
-                <label for="descricao">Descrição da Pizza</label>
+                <label for="descricao">Descrição do Prato</label>
                 <input type="text" name="descricao_pizza" id="descricao_pizza" class="form-control">
             </div>
                 <label for="imagem">Imagem:</label>
                 <input type="file" name="imagem_pizza" id="imagem_pizza"><br><br>
                 <input type="submit" value="Cadastrar">
-
             <a href="index.php" class="btn btn-danger">Cancelar</a>
         </form>
     </div>

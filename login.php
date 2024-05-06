@@ -38,20 +38,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/style/style-login.css">
 </head>
+
 <body>
-<?php include 'html/header.html'; ?>
-    <h1>Login</h1>
-    <?php if (isset($erro)) : ?>
+
+<div class="container_login">
+    <div class="titulo">
+        
+        <h1>Login</h1>
+        <?php if (isset($erro)) : ?>
         <p><?php echo $erro; ?></p>
     <?php endif; ?>
+    </div>
     <form method="POST">
         <label for="cpf">CPF:</label>
         <input type="text" id="cpf" name="cpf" required><br>
@@ -61,7 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <a href="cadastrar_cliente.php">Cadastre-se</a>
     </form>
+</div>
 
-    <?php include 'html/footer.html'; ?>
 </body>
 </html>
+

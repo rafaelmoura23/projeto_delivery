@@ -2,3 +2,8 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.card-body{
+  background-color: rgb(213, 214, 175);
+  display: flex;
+  justify-content: center;
+}

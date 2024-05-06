@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Clientes</title>
-    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="/style/style-cadastro-clien.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<?php include 'html/header.html'; ?>
     <div class="container">
         <form action="cadastro_cliente.php" method="post">
             <div class="col-4">
@@ -34,12 +33,13 @@
                 <label for="senha">Senha</label>
                 <input type="password" name="senha" id="senha" class="form-control">
             </div>
+            <div class="btns">
             <button type="submit" name="enviarDados" class="btn btn-primary">Cadastrar Cliente</button>
-
-            <a href="index.php" class="btn btn-danger">Cancelar</a>
+            <button type="submit" name="enviarDados" class="btn btn-primary">Cancelar</button>
+        </div>
         </form>
     </div>
-    <?php include 'html/footer.html'; ?>
+
 </body>
 
 </html>
